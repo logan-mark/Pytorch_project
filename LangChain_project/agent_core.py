@@ -36,10 +36,8 @@ def get_all_thread_ids(db_path="checkpoints.db"):
 # 2. 核心智能体初始化工厂函数
 # ==========================================
 def build_agent(memory):
-    # 🌟 修复点 1：API Key 安全处理
-    # 提醒：记得去 Tavily 官网把你刚才泄露的那个 Key 删掉重新生成一个！
-    # 这里先用占位符，跑之前记得填入你新生成的真实 Key
-    os.environ["TAVILY_API_KEY"] = "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"
+ 
+    os.environ["TAVILY_API_KEY"] = ""
 
     # 1. 初始化大模型
     llm = ChatOllama(model="qwen2.5:7b", temperature=0, base_url="http://127.0.0.1:11434")
