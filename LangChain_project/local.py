@@ -8,7 +8,7 @@ from langchain_core.messages import HumanMessage
 # 1. 环境变量设置
 # ==========================================
 # ⚠️ 把这里替换成你刚刚在网页上申请的 API Key
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = ""
 
 # ==========================================
 # 2. 初始化本地大模型
