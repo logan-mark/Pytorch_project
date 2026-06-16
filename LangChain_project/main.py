@@ -14,7 +14,7 @@ import sqlite3
 from langgraph.checkpoint.memory import MemorySaver
 
 # 环境变量设置
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = ""
 
 # 初始化本地大模型
 llm = ChatOllama(
