@@ -36,7 +36,7 @@ def get_all_thread_ids(db_path="checkpoints.db"):
 # ==========================================
 def build_agent():
     # ⚠️ 替换为你自己的 API KEY
-    os.environ["TAVILY_API_KEY"] = "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"
+    os.environ["TAVILY_API_KEY"] = ""
 
     # 1. 初始化模型
     llm = ChatOllama(model="qwen2.5:7b", temperature=0, base_url="http://127.0.0.1:11434")
